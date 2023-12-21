@@ -1,0 +1,12 @@
+<div class="dashboard-container">
+  <div class="header">
+      <lib-header></lib-header>
+  </div>
+  <div class="menu">
+      Menu
+  </div>
+  <div class="main">
+    <p>Count : {{clickCount}}</p>
+  </div>
+</div>
+<lib-footer footerText="Footer After" footerVersion="2.0" (onChanged)="onCountChanged($event)" ></lib-footer>
